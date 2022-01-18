@@ -1,0 +1,15 @@
+﻿@using ToDoIdentity.Models
+@model ImportXmlTaskViewModel
+
+<br>
+<h1><b>Импорт Задач</b></h1>
+<br>
+
+@using (Html.BeginForm("Import", "ImportXmlTasks", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    @Html.EditorForModel()
+
+    @Html.ActionLink("Пример файла", "GetExample", null, new { @class = "btn btn-secondary" })
+    <input type="submit" value="Сохранить" class="btn btn-secondary" />
+    @Html.ActionLink("Отменить", "Index", "Tasks", null, new { @class = "btn btn-danger" })
+}

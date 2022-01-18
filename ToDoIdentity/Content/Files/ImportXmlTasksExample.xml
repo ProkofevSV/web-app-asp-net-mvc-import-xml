@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<ArrayOfXmlTask>
+	<XmlTask>
+		<Name>Помыть посуду</Name>
+		<Topics>
+			<Topic>
+				<Id>5</Id>
+			</Topic>
+		</Topics>
+		<PerformerId>1</PerformerId>
+		<Importance>MediumImportance</Importance>
+		<Description>123</Description>
+		<Time>123</Time>
+		<DayOfWeeks>
+			<DayOfWeek>
+				<Id>2</Id>
+			</DayOfWeek>
+			<DayOfWeek>
+				<Id>3</Id>
+			</DayOfWeek>
+			<DayOfWeek>
+				<Id>4</Id>
+			</DayOfWeek>
+			<DayOfWeek>
+				<Id>5</Id>
+			</DayOfWeek>
+			<DayOfWeek>
+				<Id>6</Id>
+			</DayOfWeek>
+		</DayOfWeeks>
+	</XmlTask>
+	<XmlTask>
+		<Name>Составить график зарплат</Name>
+		<Topics>
+			<Topic>
+				<Id>5</Id>
+			</Topic>
+			<Topic>
+				<Id>6</Id>
+			</Topic>
+		</Topics>
+		<PerformerId>1</PerformerId>
+		<Importance>Important</Importance>
+		<Description>Необходимо создать таблицу</Description>
+		<Time>15 минут</Time>
+		<DayOfWeeks>
+			<DayOfWeek>
+				<Id>3</Id>
+			</DayOfWeek>
+			<DayOfWeek>
+				<Id>4</Id>
+			</DayOfWeek>
+		</DayOfWeeks>
+	</XmlTask>
+</ArrayOfXmlTask>

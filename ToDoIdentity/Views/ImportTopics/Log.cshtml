@@ -1,0 +1,12 @@
+﻿@using ToDoIdentity.Models
+@model ImportTopicLog
+
+<h3>Лог импорта дисциплин</h3>
+
+
+@Html.EditorForModel()
+<div class="btn-create">
+    @Html.ActionLink("На главную", "Index", "Tasks", null, new { @class = "btn btn-outline-dark" })
+    @Html.ActionLink("Назад", "Index", "Topics", null, new { @class = "btn btn-outline-dark" })
+    
+</div>

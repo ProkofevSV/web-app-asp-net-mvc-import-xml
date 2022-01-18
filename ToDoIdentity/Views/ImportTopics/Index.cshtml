@@ -1,0 +1,16 @@
+﻿@using ToDoIdentity.Models
+@model ImportTopicViewModel
+
+<br>
+<h1><b>Импорт дисциплин</b></h1>
+<br>
+
+@using (Html.BeginForm("Import", "ImportTopics", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+@Html.EditorForModel()
+
+                @Html.ActionLink("Пример файла", "GetExample", null, new { @class = "btn btn-secondary" })
+                                <input type="submit" value="Сохранить" class="btn btn-secondary" />
+                @Html.ActionLink("Отменить", "Index", "Topics", null, new { @class = "btn btn-danger" })
+}
+
